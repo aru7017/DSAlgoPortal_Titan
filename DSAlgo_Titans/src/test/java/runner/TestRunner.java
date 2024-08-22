@@ -7,10 +7,10 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions
 (
-		features = ".//src/test/resources/features/Graph.feature",
-		glue = "stepDefinitions",
-		dryRun = false,
-		plugin = {"pretty", "html:test-output"}
+		features = "C://Users//aru70//git//DSAlgoPortal_Titan//DSAlgo_Titans//src//main//resources//Feature//login.feature",
+		glue = {"stepdeffination"}
+	//	dryRun = false,
+	//	plugin = {"pretty", "html:test-output"}
 		)
 public class TestRunner {
 
