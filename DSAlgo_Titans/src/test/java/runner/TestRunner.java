@@ -7,8 +7,8 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions
 (
-		features = ".//src/test/resources/features/Graph.feature",
-		glue = "stepDefinitions",
+		features = ".//src/main/resources/Feature/LinkedList.feature",
+		glue = "stepdeffinitions",
 		dryRun = false,
 		plugin = {"pretty", "html:test-output"}
 		)
